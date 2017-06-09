@@ -1,0 +1,214 @@
+
+body{
+	background: black;
+}
+
+h1,h2,h3,h4,h5,h6,button{
+	font-family: 'Comic sans MS', sans-serif;
+}
+
+#contenedor-social{
+	background-color: black;
+}
+
+#contenedor-social a{
+	color: white;
+	font-size: 30px;
+}
+
+#callToAction{
+	height: 460px;
+	background-image: url(../img/mysteri.jpg);
+}
+
+#callToAction .callout{
+	padding-top: 140px;
+	border: none;
+	background: transparent;
+}
+
+#callToAction h1{
+	padding-bottom: 2px;
+}
+
+#callToAction button{
+	border: 1px solid black;
+	color: black;
+}
+
+#callToAction button:hover{
+	background-color: lightgrey;
+	color: #c69b56;
+	transition: .2s;
+}
+
+#contenedor-menu{
+	background-color: black;
+}
+
+#contenedor-menu .dropdown.menu > li.is-dropdown-submenu-parent > a::after{
+	border-color: white transparent transparent;
+}
+
+#contenedor-menu li a{
+	color: white;
+	font-family: 'Comic sans MS', sans-serif;	
+}
+
+#contenedor-menu li a:hover, #contenedor-submenu li a{
+	color: lightgray;
+}
+
+#contenedor-submenu li a{
+	background-color: black;
+	color: white;
+}
+
+#contenedor-lineup #servicios{
+	margin-top: 20px;
+}
+
+#contenedor-lineup .texto{
+	background-color: white;
+	border-radius: 10px;
+	padding:10px;
+}
+
+#contenedor-lineup .texto small{
+	color: #8e5d5d;
+}
+
+#contenedor-lineup .texto p{
+	text-transform: none;
+}
+
+#contenedor-lineup, #contenedor-lineup .tabs{
+	background-color: yellow;
+	padding: 2em 0;
+	border: 0;
+	text-transform: uppercase;
+}
+
+#contenedor-lineup .tabs .tabs-title.is-active a{
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+}
+
+.tabs-content{
+	background-color: yellow;
+	text-transform: uppercase;
+	border: 0;
+	font-family: 'Comic sans MS', sans-serif;
+}
+
+.orbit-container{
+	border-radius: 10px;
+}
+
+#contenedor-lineup .tabs .tabs-title a{
+	font-size: 18px;
+	font-family: 'Comic sans MS', sans-serif;
+	color: black;
+}
+
+#contenedor-lineup .tabs .tabs-title a:hover{
+	color: white;
+	background-color: yellow;
+}
+
+#contenedor-lineup .orbit-container{
+	margin-bottom: 1em;
+}
+
+#contenedor-lineup .column:nth-child(odd) figcaption{
+	text-align: right;
+}
+.tabs-title{
+	display: inline-block;
+	float: none;
+}
+
+.contenedor-blocks{
+	padding: 2em 0;
+}
+
+
+/* building blocks*/
+
+   /* Estilos de no generados*/
+   #contenedor-blocks .row .column ul{
+   	border: 1px solid black;
+   	border-radius: 10px;
+   }
+   #contenedor-blocks .row .column li{
+   	font-family: 'Comic sans MS', sans-serif;
+   	font-size: 20px;
+   }
+
+   #contenedor-blocks {
+   	padding-top: 3.5em;
+   }
+   #contenedor-blocks .quienSomos{
+   	padding-top: 1em;
+   }
+
+/* /building blocks*/
+
+/* Estilos del mapa*/
+#contenedor-mapa{
+	background-color: white;
+	margin: 0;
+	padding: 1em 0;
+}
+
+#contenedor-mapa .info-mapa iframe{
+	width: 100%;
+}
+
+#contenedor-formulario{
+	background-color: yellow;
+	padding: 3.5em 0;
+}
+
+#contenedor-formulario small{
+	color: black;
+}
+
+#contenedor-formulario h4{
+	margin-bottom: 0;
+	padding-bottom: 10px;
+}
+
+.input-group-button, .error-contenedor{
+	font-family: 'Comic sans MS', sans-serif;
+}
+
+.is-invalid-input:not(:focus){
+	background-color: red;
+	border-color: red;
+	color: white;
+}
+
+.data-sticky{
+	width: 100%;
+	z-index: 10;
+}
+
+#offCanvas li a{
+	background-color: black;
+	color: white;
+	font-family: 'Comic sans MS', sans-serif;
+}
+
+#offCanvas li a:hover{
+	color: lightgrey;
+}
+
+#offCanvas .is-drilldown-submenu-parent > a::after{
+	border-color: transparent transparent transparent white;
+}
+
+#offCanvas .js-drilldown-back > a::before{
+	border-color: transparent white transparent transparent;
+}
