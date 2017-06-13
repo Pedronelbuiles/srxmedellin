@@ -38,9 +38,9 @@
           <!-- /logo -->
           <!-- call to action -->
           <section id="callToAction">
-            <div class="callout large text-center">
+            <div class="callout large text-center" data-magellan>
               <h1>Señores X</h1>
-              <a href="#">
+              <a href="#contenedor-formulario">
                 <button class="large hollow button">¡Contratanos!</button>
               </a>
             </div>
@@ -52,7 +52,7 @@
               <!-- Socal-->
               <div id="contenedor-social">
                 <div class="row align-center text-center">
-                  <div class="column small-1"><a href="#" target="_blank"><i class="fi-social-facebook"></i></a></div>
+                  <div class="column small-1"><a href="https://www.facebook.com/Se%C3%B1ores-X-1146091828869207/" target="_blank"><i class="fi-social-facebook"></i></a></div>
                   <div class="column small-1"><a href="#" target="_blank"><i class="fi-social-twitter"></i></a></div>
                   <div class="column small-1"><a href="#" target="_blank"><i class="fi-social-instagram"></i></a></div>
                 </div>
@@ -206,6 +206,32 @@
           <!-- /Parte del mapa don google -->
         </div>
       </div>
+          <!-- Pop-up contacto -->
+      <div class="contact-panel" id="contact-panel" data-toggler=".is-active">
+        <a class="contact-panel-button" data-toggle="contact-panel">Contratanos</a>
+        <form action="https://formspree.io/srxmedellin@gmail.com" method="POST">
+          <div class="row">
+            <label>Nombre completo *
+              <input type="text" placeholder="Nombre completo" name="nombre" required>
+            </label>
+          </div>
+          <div class="row">
+            <label>Correo electronico *
+              <input type="email" placeholder="Correo electronico" name="correo" required>
+            </label>
+          </div>
+          <div class="row">
+            <label>Mensaje *
+              <textarea placeholder="Descripción de la empresa y solicitud de compra" rows="3" name="mensaje" required></textarea>
+            </label>
+          </div>
+          <div class="contact-panel-actions">
+            <button class="cancel-button" data-toggle="contact-panel">Gracias por tu interés.</button>
+            <input type="submit" class="button submit-button" value="Enviar">
+          </div>
+        </form>
+      </div>
+      <!-- Pop-up contacto -->
     </div>
     <!-- /Menú off canvas -->
     
